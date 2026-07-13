@@ -13,7 +13,7 @@ This repository contains beginner-friendly Go programs created while learning Go
 - Palindrome Checker
 - Array Sum
 - Student Struct
-- Banking System
+
 
 ## Technologies Used
 
