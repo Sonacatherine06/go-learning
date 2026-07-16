@@ -1,6 +1,6 @@
 # Go Learning
 
-This repository contains beginner-friendly Go programs created while learning Go.
+This repository contains beginner-friendly Go (Golang) programs created while learning the Go programming language.
 
 ## Programs
 
@@ -14,15 +14,40 @@ This repository contains beginner-friendly Go programs created while learning Go
 - Array Sum
 - Student Struct
 
-
 ## Technologies Used
 
 - Go (Golang)
+- Docker
 
-## How to Run
+## How to Run Using Go
 
 ```bash
-go run hello.go
+go run helloworld.go
 ```
 
-Replace `hello.go` with the name of any Go program you want to run.
+Replace `helloworld.go` with the name of any Go program you want to run.
+
+## How to Run Using Docker
+
+Build the Docker image:
+
+```bash
+docker build --build-arg FILE=helloworld.go -t hello-app .
+```
+
+Run the Docker container:
+
+```bash
+docker run --rm hello-app
+```
+
+To run another program, replace `helloworld.go` with any of the following:
+
+- calculator.go
+- factorial.go
+- fibonacci.go
+- palindrome.go
+- primenumber_check.go
+- reverse_string.go
+- student.go
+- sum_of_array.go
